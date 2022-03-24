@@ -1,5 +1,5 @@
 import { PoolConnection } from "mysql2/promise";
-import { ResponseDto } from "../constants/response.dto";
+import { ResponseDto } from "../dto/response.dto";
 import { CREATE_RESOURCE_LINK, DATABASE_ERROR, FAILED_TO_GET_RESOURCES, FAILURE_CREATE_DOC_RESOURCE, FAILURE_CREATE_FILE_RESOURCE, FAILURE_CREATE_RESOURCE, FAILURE_CREATE_URL_RESOURCE, GET_DOC_RESOURCE, GET_FILE_RESOURCE, GET_RESOURCES, GET_URL_RESOURCE, IS_DOCUMENT, IS_EXIST_LINK, IS_EXIST_RESOURCE, IS_NOT_DOCUMENT, IS_NOT_EXIST_LINK, IS_NOT_EXIST_RESOURCE, NOT_FOUND_RESOURCE, SUCCESS_CREATE_DOC_RESOURCE, SUCCESS_CREATE_FILE_RESOURCE, SUCCESS_CREATE_RESOURCE, SUCCESS_CREATE_URL_RESOURCE } from "../constants/result.code";
 import { IDocMetadata, IDocument } from "../interface/document.interface";
 import { IFile, IFileMetadata } from "../interface/file.interface";

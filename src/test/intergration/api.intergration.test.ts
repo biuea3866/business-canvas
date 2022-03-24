@@ -5,7 +5,7 @@ import { BAD_GATEWAY, CREATED, GET_RESOURCES, OK } from '../../constants/result.
 import { ApiService } from '../../service/api.service';
 import { CreateLinkDto } from '../../dto/create.link.dto';
 import { GetResourceDto } from '../../dto/get.resource.dto';
-import { ResponseDto } from '../../constants/response.dto';
+import { ResponseDto } from '../../dto/response.dto';
 
 describe("Api Routing Test", () => {
     const service = new ApiService();

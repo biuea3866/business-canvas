@@ -1,4 +1,4 @@
-import { ResponseDto } from "../constants/response.dto";
+import { ResponseDto } from "../dto/response.dto";
 import { DOC_TYPE, FILE_TYPE, INTERNAL_SERVER_ERROR, IS_EXIST_LINK, IS_EXIST_RESOURCE, IS_NOT_DOCUMENT, MISSING_REQUIRED_INFORMATION, SUCCESS_CREATE_DOC_RESOURCE, SUCCESS_CREATE_FILE_RESOURCE, SUCCESS_CREATE_RESOURCE, SUCCESS_CREATE_URL_RESOURCE, URL_TYPE } from "../constants/result.code";
 import { CreateDto } from "../dto/create.dto";
 import { CreateLinkDto } from "../dto/create.link.dto";

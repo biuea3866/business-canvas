@@ -1,4 +1,4 @@
-import { ResponseDto } from "../../constants/response.dto";
+import { ResponseDto } from "../../dto/response.dto";
 import { BAD_GATEWAY, CREATE_RESOURCE_LINK, FAILURE_CREATE_RESOURCE, GET_RESOURCES, INTERNAL_SERVER_ERROR, IS_EXIST_LINK, IS_NOT_DOCUMENT, NOT_FOUND_RESOURCE, SUCCESS_CREATE_RESOURCE } from "../../constants/result.code";
 import { ApiRepository } from "../../repository/api.repository";
 

@@ -1,5 +1,5 @@
 import express from 'express';
-import { ResponseDto } from '../constants/response.dto';
+import { ResponseDto } from '../dto/response.dto';
 import { BAD_GATEWAY, CREATED, DATABASE_ERROR, FAILED_TO_GET_RESOURCES, INTERNAL_SERVER_ERROR, IS_DOCUMENT, IS_EXIST_LINK, IS_EXIST_RESOURCE, NOT_FOUND_RESOURCE, OK } from '../constants/result.code';
 import { CreateDto } from '../dto/create.dto';
 import { CreateLinkDto } from '../dto/create.link.dto';
