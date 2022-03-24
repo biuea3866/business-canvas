@@ -1,4 +1,4 @@
-import { ResponseDto } from "../../constants/response.dto";
+import { ResponseDto } from "../../dto/response.dto";
 import { BAD_GATEWAY, CREATE_RESOURCE_LINK, GET_RESOURCES, INTERNAL_SERVER_ERROR, IS_DOCUMENT, IS_EXIST_LINK, IS_NOT_DOCUMENT, NOT_FOUND_RESOURCE, SUCCESS_CREATE_RESOURCE, SUCCESS_CREATE_URL_RESOURCE } from "../../constants/result.code";
 import { CreateDto } from "../../dto/create.dto";
 import { CreateLinkDto } from "../../dto/create.link.dto";
